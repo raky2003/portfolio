@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "homepage": "https://raky2003.github.io/portfolio",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

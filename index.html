@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | RAKY DIA</title>
+  <meta
+    id="meta-description"
+    name="description"
+    content="Portfolio de RAKY DIA, etudiante en Licence 3 MIAGE et developpeuse web Laravel/Symfony."
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">RAKY DIA</a>
+
+      <div class="header-actions">
+        <button
+          class="lang-toggle"
+          type="button"
+          aria-pressed="false"
+          aria-label="Changer la langue"
+        >
+          EN
+        </button>
+
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-pressed="false"
+          aria-label="Changer de theme"
+        >
+          Theme
+        </button>
+      </div>
+
+      <nav id="site-nav" class="site-nav">
+        <a href="#about" data-i18n="navAbout">A propos</a>
+        <a href="#skills" data-i18n="navSkills">Skills</a>
+        <a href="#experience" data-i18n="navExperience">Experience</a>
+        <a href="#projects" data-i18n="navProjects">Projets</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-card">
+          <p class="hero-label" data-i18n="heroLabel">PORTFOLIO</p>
+          <h1>Raky Dia</h1>
+          <p class="hero-role" data-i18n="heroRole">Developpeuse Full Stack</p>
+          <p class="hero-stack" data-i18n="heroStack">PHP, Laravel, Symfony, MySQL, API Platform, Livewire, Docker</p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects" data-i18n="heroProjects">Voir mes projets</a>
+            <a class="button button-secondary" href="https://github.com/raky2003" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="button button-secondary" href="#contact" data-i18n="heroContact">Contact</a>
+            <a class="button button-secondary" href="assets/CV_Raky_DIA.pdf" target="_blank" rel="noreferrer" data-i18n="heroCv">Telecharger CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="content-section">
+      <div class="container">
+        <article class="panel">
+          <p class="section-label" data-i18n="aboutLabel">About</p>
+          <h2 data-i18n="aboutTitle">A propos de moi</h2>
+          <p data-i18n="aboutText">
+            Je suis Raky Dia, etudiante en Licence 3 MIAGE a l'Universite de Rennes 1
+            et developpeuse web orientee back-end et applications metier. Je developpe
+            des applications web avec Laravel et Symfony, en portant une attention
+            particuliere a la qualite du code, a l'experience utilisateur et a la
+            structuration des donnees. Je suis egalement particulierement attiree par
+            le domaine de la data, notamment l'analyse de donnees et la valorisation
+            des informations pour aider a la prise de decision.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="content-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label" data-i18n="skillsLabel">Skills</p>
+          <h2 data-i18n="skillsTitle">Technologies et outils</h2>
+        </div>
+
+        <article class="panel">
+          <div class="skills-groups">
+            <section class="skill-group">
+              <p class="skill-group-title" data-i18n="skillsCategoryLanguages">Langages</p>
+              <div class="skills-cloud">
+                <span class="chip">PHP</span>
+                <span class="chip">Java</span>
+                <span class="chip">JavaScript</span>
+                <span class="chip">Python</span>
+                <span class="chip">C</span>
+                <span class="chip">Scala</span>
+                <span class="chip">HTML</span>
+                <span class="chip">CSS</span>
+              </div>
+            </section>
+
+            <section class="skill-group">
+              <p class="skill-group-title" data-i18n="skillsCategoryWeb">Web</p>
+              <div class="skills-cloud">
+                <span class="chip">Laravel</span>
+                <span class="chip">Symfony 6</span>
+                <span class="chip">Node.js</span>
+                <span class="chip">Twig</span>
+                <span class="chip">Blade</span>
+                <span class="chip">Livewire</span>
+                <span class="chip">Filament</span>
+                <span class="chip">API Platform</span>
+                <span class="chip">Bootstrap</span>
+                <span class="chip">TailwindCSS</span>
+              </div>
+            </section>
+
+            <section class="skill-group">
+              <p class="skill-group-title" data-i18n="skillsCategoryDatabase">Base de donnees</p>
+              <div class="skills-cloud">
+                <span class="chip">MySQL</span>
+                <span class="chip">PostgreSQL</span>
+                <span class="chip">SQLite</span>
+                <span class="chip">Doctrine</span>
+              </div>
+            </section>
+
+            <section class="skill-group">
+              <p class="skill-group-title" data-i18n="skillsCategoryOther">Outils et autres</p>
+              <div class="skills-cloud">
+                <span class="chip">Docker</span>
+                <span class="chip">Docker Compose</span>
+                <span class="chip">XAMPP</span>
+                <span class="chip">Linux</span>
+                <span class="chip">Agile Methodologies</span>
+                <span class="chip">Git</span>
+                <span class="chip">GitHub</span>
+                <span class="chip">MVC</span>
+                <span class="chip">POO</span>
+              </div>
+            </section>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="content-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label" data-i18n="experienceLabel">Experience</p>
+          <h2 data-i18n="experienceTitle">Experience professionnelle</h2>
+        </div>
+
+        <article class="panel experience-card">
+          <div class="experience-media">
+            <img
+              src="screen/acan1.jpeg"
+              alt="Logo de l'entreprise Acan Group Senegal"
+            >
+          </div>
+          <h3 data-i18n="experience1Title">Stagiaire developpement web - Acan Group Senegal</h3>
+          <p data-i18n="experience1Meta">Mai 2024 - Aout 2024 | Km1 Av. Cheikh Anta Diop 45753</p>
+          <p data-i18n="experience1Text">
+            Adaptation au framework Laravel en entreprise a travers le developpement
+            d'une application de gestion de bibliotheque, en reutilisant un template
+            existant et en implementant la gestion des livres, des utilisateurs et des prets.
+          </p>
+          <div class="project-tags">
+            <span class="chip">Laravel</span>
+            <span class="chip">PHP</span>
+            <span class="chip">MySQL</span>
+            <span class="chip">XAMPP</span>
+            <span class="chip">MVC</span>
+            <span class="chip">POO</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="content-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label" data-i18n="projectsLabel">Projects</p>
+          <h2 data-i18n="projectsTitle">Mes projets</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="panel project-card">
+            <div class="project-media">
+              <img
+                src="screen/page%20d%27accueil.png"
+                alt="Capture de l'application de gestion des reservations immobilieres"
+              >
+            </div>
+            <h3 data-i18n="project1Title">Application de gestion des reservations immobilieres</h3>
+            <p data-i18n="project1Text">
+              Developpement d'une application web Laravel pour la reservation de
+              proprietes avec interface Blade et TailwindCSS, composant de reservation
+              dynamique en Livewire et panneau d'administration Filament.
+            </p>
+            <div class="project-tags">
+              <span class="chip">Laravel</span>
+              <span class="chip">Livewire</span>
+              <span class="chip">Filament</span>
+              <span class="chip">TailwindCSS</span>
+              <span class="chip">MySQL</span>
+            </div>
+            <div class="project-actions">
+              <button
+                class="button button-primary button-small"
+                type="button"
+                data-gallery="reservations"
+                data-i18n="liveDemo"
+              >
+                Live Demo
+              </button>
+              <a class="button button-secondary button-small" href="https://github.com/raky2003/Application_gestion_reservations_immobilieres.git" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="panel project-card">
+            <div class="project-media">
+              <img
+                src="screen/interfaceApllicationgestionBiliotheque%20.png"
+                alt="Capture de l'application de gestion de bibliotheque"
+              >
+            </div>
+            <h3 data-i18n="project2Title">Application de gestion de bibliotheque</h3>
+            <p data-i18n="project2Text">
+              Application Laravel developpee dans un contexte professionnel pour gerer
+              les livres, les utilisateurs et les prets, avec integration sur un
+              template existant et architecture PHP/MySQL en MVC.
+            </p>
+            <div class="project-tags">
+              <span class="chip">Laravel</span>
+              <span class="chip">PHP</span>
+              <span class="chip">MySQL</span>
+              <span class="chip">MVC</span>
+              <span class="chip">XAMPP</span>
+            </div>
+            <div class="project-actions">
+              <button
+                class="button button-primary button-small"
+                type="button"
+                data-gallery="bibliotheque"
+                data-i18n="liveDemo"
+              >
+                Live Demo
+              </button>
+              <a class="button button-secondary button-small" href="https://github.com/raky2003/gestion_bibliotheque_laravel.git" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="panel project-card">
+            <h3 data-i18n="project3Title">Application de gestion des tuteurs et visites</h3>
+            <p data-i18n="project3Text">
+              Application web developpee avec Symfony 6 pour la gestion des etudiants,
+              tuteurs et visites, avec dashboard statistique, API REST via API Platform,
+              generation de rapports PDF et deploiement Docker.
+            </p>
+            <div class="project-tags">
+              <span class="chip">Symfony 6</span>
+              <span class="chip">API Platform</span>
+              <span class="chip">Doctrine</span>
+              <span class="chip">Twig</span>
+              <span class="chip">Docker</span>
+            </div>
+            <div class="project-actions">
+              <a class="button button-secondary button-small" href="https://github.com/raky2003/gestion-tuteurs-visites-symfony.git" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="content-section">
+      <div class="container">
+        <article class="panel contact-panel">
+          <div>
+            <p class="section-label" data-i18n="contactLabel">Contact</p>
+            <h2 data-i18n="contactTitle">Travaillons ensemble</h2>
+            <p data-i18n="contactText">
+              Tu peux me contacter par email ou retrouver mes projets sur GitHub. Je suis ouverte aux stages, a l'alternance et aux collaborations sur des projets.
+            </p>
+          </div>
+
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:rakyd5808@gmail.com">rakyd5808@gmail.com</a>
+            <a class="button button-secondary" href="https://github.com/raky2003" target="_blank" rel="noreferrer" data-i18n="myGithub">Mon GitHub</a>
+            <a class="button button-secondary" href="https://www.linkedin.com/in/raky-dia-3b386b2a0" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><span id="footer-prefix">&copy;</span> <span id="current-year"></span> RAKY DIA. <span data-i18n="footerText">Tous droits reserves.</span></p>
+    </div>
+  </footer>
+
+  <div class="gallery-modal" id="gallery-modal" hidden>
+    <div class="gallery-backdrop" data-gallery-close></div>
+    <div class="gallery-dialog" role="dialog" aria-modal="true" aria-labelledby="gallery-title">
+      <div class="gallery-topbar">
+        <div>
+          <p class="gallery-eyebrow" data-i18n="liveDemo">Live Demo</p>
+          <h3 class="gallery-title" id="gallery-title">Application de gestion des reservations immobilieres</h3>
+        </div>
+        <button class="gallery-close" type="button" aria-label="Fermer" data-gallery-close>&times;</button>
+      </div>
+
+      <div class="gallery-stage">
+        <button class="gallery-nav gallery-nav-prev" type="button" data-gallery-prev aria-label="Precedent">&#8249;</button>
+        <figure class="gallery-figure">
+          <img class="gallery-image" src="" alt="">
+          <figcaption class="gallery-caption">
+            <span class="gallery-caption-text"></span>
+            <span class="gallery-counter"></span>
+          </figcaption>
+        </figure>
+        <button class="gallery-nav gallery-nav-next" type="button" data-gallery-next aria-label="Suivant">&#8250;</button>
+      </div>
+
+      <div class="gallery-thumbnails" aria-label="Apercus des pages"></div>
+
+      <div class="gallery-actions">
+        <button class="button button-secondary gallery-exit" type="button" data-gallery-close data-i18n="galleryBackToPortfolio">
+          Retour au portfolio
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
